@@ -83,19 +83,19 @@ def before_generate_basic(item_pool: list, world: World, multiworld: MultiWorld,
     # # remove the locations above from the multiworld as well
     # multiworld.clear_location_cache()
     
-     for region in multiworld.regions:
-         locations_to_remove_from_region = []
+    for region in multiworld.regions:
+        locations_to_remove_from_region = []
 
-         for location in region.locations:
-             if location.name in locations_to_remove and location.player == player:
-                 locations_to_remove_from_region.append(location)
+        for location in region.locations:
+            if location.name in locations_to_remove and location.player == player:
+                locations_to_remove_from_region.append(location)
 
-         for location in locations_to_remove_from_region:
-             region.locations.remove(location)
+        for location in locations_to_remove_from_region:
+            region.locations.remove(location)
                 
     # # modify the victory requirements to only include items that are in the item names list
-     victory_location = multiworld.get_location("__Manual Game Complete__", player)
-     victory_location.access_rule = lambda state, items=character_names, p=player: state.has_all(items, p)
+    victory_location = multiworld.get_location("__Manual Game Complete__", player)
+    victory_location.access_rule = lambda state, items=character_names, p=player: state.has_all(items, p)
 
     return item_pool
 

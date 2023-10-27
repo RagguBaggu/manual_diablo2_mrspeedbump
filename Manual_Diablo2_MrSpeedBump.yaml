@@ -5,26 +5,28 @@ Manual_Diablo2_MrSpeedBump:
       # Excluded checks system made by Axxroy. Send them love on Discord!
       #
       # Comment out (Add a # at the front) the checks you ->*WANT*<- to look for! Uncommented checks will be excluded from seed generation!
-      #================================================================================================
+      #====================================================================================================================================
       # WARNING! IF YOU WANT TO COMPLETE HELL DIFFICULTY, MAKE SURE NIGHTMARE IS ->*ALSO*<- COMMENTED OR HELL
       # WILL STILL BE DISABLED!! DISABLING DIFFICULTIES WILL ALSO DISABLE ->*ALL*<- CHECKS DEPENDANT ON
       # THOSE DIFFICULTIES!!
-      #------------------------------------------------------------------------------------------------
+      #------------------------------------------------------------------------------------------------------------------------------------
       # DIFFICULTIES:
       #"Nightmare",
       #"Hell",
-      #================================================================================================
+      #====================================================================================================================================
       # LEVEL GROUP CHECKS:
       #"Levels 1-19",
       #"Levels 20-39",
       #"Levels 40-59",
       #"Levels 60-79",
       #"Levels 80-99",
-      #================================================================================================
+      # DISABLE LEVELS AS ITEMS ENTIRELY:       Disabling this alone allows normal level ups, while keeping the checks themselves
+      #"Level Up",
+      #====================================================================================================================================
       # RUNES:          Disabling allows normal use of the rune, limited by in-game level requirements
       #"Runes",
-      #================================================================================================
-      # SPECIFIC CHECK GROUPS:
+      #====================================================================================================================================
+      # SPECIFIC GROUP CHECKS:
       #     Act 1:
       #"Act 1 Super Uniques - Normal",
       #"Act 1 Super Uniques - Nightmare",
@@ -35,7 +37,7 @@ Manual_Diablo2_MrSpeedBump:
       #"Act 1 Activities - Normal",
       #"Act 1 Activities - Nightmare",
       #"Act 1 Activities - Hell",
-      #------------------------------------------------------------------------------------------------
+      #------------------------------------------------------------------------------------------------------------------------------------
       #     Act 2:
       #"Act 2 Super Uniques - Normal",
       #"Act 2 Super Uniques - Nightmare",
@@ -46,7 +48,7 @@ Manual_Diablo2_MrSpeedBump:
       #"Act 2 Activities - Normal",
       #"Act 2 Activities - Nightmare",
       #"Act 2 Activities - Hell",
-      #------------------------------------------------------------------------------------------------
+      #------------------------------------------------------------------------------------------------------------------------------------
       #     Act 3:
       #"Act 3 Super Uniques - Normal",
       #"Act 3 Super Uniques - Nightmare",
@@ -57,7 +59,7 @@ Manual_Diablo2_MrSpeedBump:
       #"Act 3 Activities - Normal",
       #"Act 3 Activities - Nightmare",
       #"Act 3 Activities - Hell",
-      #------------------------------------------------------------------------------------------------
+      #------------------------------------------------------------------------------------------------------------------------------------
       #     Act 4:
       #"Act 4 Super Uniques - Normal",
       #"Act 4 Super Uniques - Nightmare",
@@ -66,7 +68,7 @@ Manual_Diablo2_MrSpeedBump:
       #"Act 4 Activities - Normal",
       #"Act 4 Activities - Nightmare",
       #"Act 4 Activities - Hell",
-      #------------------------------------------------------------------------------------------------
+      #------------------------------------------------------------------------------------------------------------------------------------
       #     Act 5:
       #"Act 5 Super Uniques - Normal",
       #"Act 5 Super Uniques - Nightmare",
